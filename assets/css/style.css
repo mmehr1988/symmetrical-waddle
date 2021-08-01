@@ -1,0 +1,150 @@
+/* CSS VARIABLE -----------------------------------------------------------*/
+
+:root {
+  --icon-play: #54e346;
+  --icon-play-active: #43b638;
+
+  --icon-pause: #f98404;
+  --icon-pause-active: #fc5404;
+
+  --icon-stop: #ff3f00;
+  --icon-stop-active: #cf0000;
+
+  --icon-shuffle: #ac66cc;
+  --icon-shuffle-active: #a239ea;
+
+  --slider-vol: #777715;
+  --slider-prog: #ff007f;
+}
+
+body {
+  font-family: 'Suez One', serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* LANDING PAGE -------------------------------------------------------*/
+
+.about {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+em {
+  color: #ff007f;
+}
+
+/* BACKGROUND IMAGE -------------------------------------------------------*/
+
+.hero.is-info {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1200x900/?music') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* BUTTONS ----------------------------------------------------------------*/
+
+button {
+  outline: none;
+  font-family: 'Suez One', serif;
+  letter-spacing: 0.7px;
+}
+
+button:active,
+button:hover {
+  transform: scale(1.05);
+  transition: 0.15s transform;
+}
+
+iframe {
+  border-radius: 5px;
+}
+
+/* ICON -------------------------------------------------------------------*/
+
+.icon-play,
+.icon-pause,
+.icon-stop,
+.icon-mute,
+.icon-unmute,
+.icon-shuffle {
+  font-size: 240%;
+  display: block;
+}
+
+/* ICON: PLAY & UNMUTE ----------------------------------------------------*/
+
+.icon-play,
+.icon-unmute {
+  color: var(--icon-play);
+}
+
+.icon-play:active,
+.icon-play:hover,
+.icon-unmute:active,
+.icon-unmute:hover {
+  color: var(--icon-play-active);
+  transition: 0.15s color;
+}
+
+/* ICON: PAUSE ------------------------------------------------------------*/
+
+.icon-pause {
+  color: var(--icon-pause);
+}
+
+.icon-pause:active,
+.icon-pause:hover {
+  color: var(--icon-pause-active);
+  transition: 0.15s color;
+}
+
+/* ICON: STOP & MUTE ----------------------------------------------------*/
+
+.icon-stop,
+.icon-mute {
+  color: var(--icon-stop);
+}
+
+.icon-stop:active,
+.icon-stop:hover,
+.icon-mute:active,
+.icon-mute:hover {
+  color: var(--icon-stop-active);
+  transition: 0.15s color;
+}
+
+/* ICON: SHUFFLE ----------------------------------------------------------*/
+
+.icon-shuffle {
+  color: var(--icon-shuffle);
+}
+
+.icon-shuffle:active,
+.icon-shuffle:hover {
+  color: var(--icon-shuffle-active);
+  transition: 0.15s color;
+}
+
+/* SLIDERS ----------------------------------------------------------*/
+
+#volSlider1 span,
+#volSlider2 span,
+#volSlider3 span,
+#volSlider4 span {
+  background-color: var(--slider-vol);
+  cursor: pointer;
+}
+
+#progSlider1 span,
+#progSlider2 span,
+#progSlider3 span,
+#progSlider4 span {
+  background-color: var(--slider-prog);
+  cursor: pointer;
+}
