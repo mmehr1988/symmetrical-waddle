@@ -1,6 +1,10 @@
+# symmetrical-waddle
+
 Project 1: Digital Audio Harmonious Mixer [DAHM]
 
 Team Members: Allie Soliz, Derrick Bueno, Hashim Malik, Mehdi Mehrabani
+
+App Link: [Project 1](https://mmehr1988.github.io/symmetrical-waddle/)
 
 ## Project Requirements
 
