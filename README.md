@@ -164,12 +164,6 @@ There are essentially two main errors we wanted to handle. The first is the YouT
 
 The second error is related to video ID’s that result in “Video Not Available”. In these instances, we created a function to delete the video ID upon receiving this error and to generate a new video ID.
 
-# Final Project Images
+# GIF of Final Project
 
-## Landing Page
-
-![alt text](./assets/img/DAHM-Landing.png)
-
-## Mixer Page
-
-![alt text](./assets/img/DAHM-Mixer.png)
+![alt text](./assets/gif/DAHM.gif)
